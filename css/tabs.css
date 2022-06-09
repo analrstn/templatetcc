@@ -9,7 +9,7 @@ h2, h3{
 }
 
 .tabs{
-    width: 400px;
+    /*width: 400px;*/
     display: block;
     margin: 40px auto;
     position: relative;
@@ -34,22 +34,29 @@ h2, h3{
     cursor: pointer;
     position: relative;
     color: #FFF;
-    background: #2fc8ae;
+    background: #eb0808;
 }
 
 .tabs .content {
     z-index: 0;/* or display: none; */
     overflow: hidden;
-    width: 400px;
+    /*width: 400px;*/
     padding: 25px;
     position: absolute;
     top: 27px;
     left: 0;
-    background: #146b2f;
+    background: #5c6061;
     color: #DFDFDF;
     
     opacity:0;
     transition: opacity 400ms ease-out;
+}
+
+@media screen and (max-width: 500px) {
+  
+    .tabs {
+        width: 70%;
+    }
 }
 
 .tabs>.tab>[id^="tab"]:checked + label {
@@ -75,4 +82,9 @@ h2, h3{
     -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
     -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
 
-    } 
+    }
+
+.img {
+    width: 100%;
+  height: auto;
+}

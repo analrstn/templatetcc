@@ -312,3 +312,53 @@ input[type="radio"] .styled:checked + label::after {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/*Definido pela desenvolvedora*/
+
+li{
+  line-height:25px;
+  line-break: normal;
+  text-align: center;
+  font-size: medium;
+  font-style: normal;
+}
+
+.img-profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  text-align: start;
+}
+
+.ol{
+  line-height: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  align-content: center;
+}
+
+.img-logotipo{
+  width: 225px;
+  height: 149px;
+  align-content: center;
+}
+
+.img-isotipo{
+  width: 268px;
+  height: 250px;
+}
+
+.tema{
+  line-height: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-content: center;
+}
+
+.label{
+  font-weight: normal;
+  font-size: medium;
+  width: 400;
+  height: 350;
+  display: inline-block;
+}
